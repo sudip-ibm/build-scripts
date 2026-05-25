@@ -29,7 +29,7 @@ yum install -y make libtool cmake git wget xz zlib-devel openssl-devel bzip2-dev
 export PATH=/opt/rh/gcc-toolset-13/root/usr/bin:$PATH
 SCRIPT_DIR=$(pwd)
 
-#installing dependencies
+#installing dependencies 
 pip install --upgrade cmake pip setuptools wheel ninja packaging pytest
 
 
